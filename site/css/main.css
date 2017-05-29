@@ -35,8 +35,26 @@ nav{
 .nav{
   text-decoration: none;
   font-size: 30px;
+  padding: 10px;
 }
 
 .main{
-  height: 90vh;
+  width: 100vw;
+}
+
+.characters{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+  width: 18.8vw;
+  height: 50vh;
+  background-color: blue;
+  margin-top: 2vh;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
