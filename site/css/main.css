@@ -28,6 +28,7 @@ body{
   flex-direction: row;
   align-items: flex-start;
   justify-content: space-between;
+  background-color: #222;
 }
 
 img.menu_pic{
@@ -53,6 +54,9 @@ nav{
 
 .main{
   width: calc(100vw - 17px);
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .trailers_container{
@@ -69,13 +73,16 @@ nav{
 }
 
 .card{
-  width: 18.8vw;
+  width: 300px;
   height: 400px;
-  background-color: blue;
+  background-color: black;
   margin-top: 2vh;
-  border-radius: 20px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 2vh;
+  -webkit-box-shadow: 13px 13px 20px 0px rgba(0,0,0,0.45);
+  -moz-box-shadow: 13px 13px 20px 0px rgba(0,0,0,0.45);
+  box-shadow: 13px 13px 20px 0px rgba(0,0,0,0.45);
 }
 
 .row {
