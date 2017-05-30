@@ -80,9 +80,6 @@ nav{
   display: flex;
   flex-direction: column;
   margin-bottom: 2vh;
-  -webkit-box-shadow: 13px 13px 20px 0px rgba(0,0,0,0.45);
-  -moz-box-shadow: 13px 13px 20px 0px rgba(0,0,0,0.45);
-  box-shadow: 13px 13px 20px 0px rgba(0,0,0,0.45);
 }
 
 .row {
