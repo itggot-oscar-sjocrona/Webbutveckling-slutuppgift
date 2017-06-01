@@ -2,17 +2,23 @@ html{
   font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3{
+  color: #fdb41a;
+  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+}
+
 h1{
   font-size: 90px;
   text-decoration: underline;
-  color: #fdb41a;
-  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 h2 {
   font-size: 60px;
-  color: #fdb41a;
-  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
+}
+
+h3{
+  font-size: 30px;
 }
 
 p {
@@ -125,6 +131,12 @@ nav{
   background-image: url("../img/Game-of-Thrones-Iron-Throne.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.timer{
+  position: fixed;
+  top: 20vh;
+  left: 20px;
 }
 
 .sprite {
