@@ -240,3 +240,68 @@ nav{
     height: 300px;
     background-position: -625px -935px;
 }
+
+@media screen
+and (min-device-width: 320px)
+and (max-device-width: 568px)
+and (device-height: 568px){
+  body{
+    width: 100vw;
+}
+
+  .home_body{
+    background-color: #222;
+    background-image: none;
+  }
+
+  .header{
+    height: 20vh;
+    flex-direction: column;
+    align-items: center;
+    opacity: 1;
+  }
+
+  img.menu_pic{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  nav{
+    width: 100vw;
+    border-bottom: solid 1px lightgrey;
+    border-top: solid 1px lightgrey;
+  }
+
+  .nav{
+    font-size: 20px;
+  }
+
+  .main{
+    margin-top: 21vh;
+    width: 100vw;
+  }
+
+  .characters{
+    width: 100vw;
+  }
+
+  .hide{
+    display: none;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+
+  .vid{
+    width: calc(150px * 1.777);
+    height: 150px;
+  }
+
+  .timer{
+    bottom: 130px;
+    left: calc(50% - 110px);
+    border-color: lightgrey;
+  }
+}
