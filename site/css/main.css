@@ -7,7 +7,6 @@ h1, h2, h3{
   text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
-
 h1{
   font-size: 90px;
   text-decoration: underline;
@@ -243,11 +242,12 @@ nav{
 
 @media screen
 and (min-device-width: 320px)
-and (max-device-width: 568px)
+and (max-device-width: 320px)
 and (device-height: 568px){
+
   body{
     width: 100vw;
-}
+  }
 
   .home_body{
     background-color: #222;
@@ -303,5 +303,32 @@ and (device-height: 568px){
     bottom: 130px;
     left: calc(50% - 110px);
     border-color: lightgrey;
+  }
+}
+
+@media screen
+and (min-device-width: 1024px)
+and (max-device-width: 1024px)
+and (device-height: 768px){
+
+  body{
+    width: 100vw;
+  }
+
+  .home_body{
+    height: 100vh;
+  }
+
+  .main{
+    width: 100vw;
+  }
+
+  .characters{
+    width: 100vw;
+  }
+
+  .vid{
+    width: calc(250px * 1.777);
+    height: 250px;
   }
 }
