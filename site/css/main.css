@@ -5,23 +5,33 @@ html{
 h1{
   font-size: 90px;
   text-decoration: underline;
+  color: #fdb41a;
+  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 h2 {
   font-size: 60px;
+  color: #fdb41a;
+  text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black;
 }
 
 p {
   font-size: 20px;
+  color: #fdb41a;
 }
 
 body{
   margin: 0;
   width: calc(100vw - 17px);
-  height: 100vh;
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .header{
+  position: fixed;
+  top: 0;
+  left: 0;
   height: 10vh;
   width: calc(100vw - 17px);
   display: flex;
@@ -29,6 +39,7 @@ body{
   align-items: flex-start;
   justify-content: space-between;
   background-color: #222;
+  opacity: 0.9;
 }
 
 img.menu_pic{
@@ -50,13 +61,12 @@ nav{
   text-decoration: none;
   font-size: 30px;
   padding: 10px;
+  color: #fdb41a;
 }
 
 .main{
+  margin-top: 10vh;
   width: calc(100vw - 17px);
-  background-image: url("../img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .trailers_container{
@@ -75,11 +85,13 @@ nav{
 .card{
   width: 300px;
   height: 400px;
-  background-color: black;
-  margin-top: 2vh;
+  margin-top: 3vh;
   display: flex;
   flex-direction: column;
+  background-color: #222;
   margin-bottom: 2vh;
+  border: outset 3px;
+  border-color: black;
 }
 
 .row {
@@ -94,4 +106,109 @@ nav{
   width: 49%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.season_7{
+  padding-bottom: 50px;
+}
+
+.text_area{
+  text-align: center;
+  border-top: outset 3px black;
+}
+
+.sprite {
+    background-image: url(../img/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-arya-stark {
+    width: 300px;
+    height: 300px;
+    background-position: -5px -5px;
+}
+
+.sprite-bran-stark {
+    width: 300px;
+    height: 300px;
+    background-position: -315px -5px;
+}
+
+.sprite-bronn {
+    width: 300px;
+    height: 300px;
+    background-position: -625px -5px;
+}
+
+.sprite-cersei-lannister {
+    width: 300px;
+    height: 300px;
+    background-position: -5px -315px;
+}
+
+.sprite-daenarys {
+    width: 300px;
+    height: 300px;
+    background-position: -315px -315px;
+}
+
+.sprite-davos-seaworth {
+    width: 300px;
+    height: 300px;
+    background-position: -625px -315px;
+}
+
+.sprite-euron-greyjoy {
+    width: 300px;
+    height: 300px;
+    background-position: -5px -625px;
+}
+
+.sprite-jamie-lannister {
+    width: 300px;
+    height: 300px;
+    background-position: -315px -625px;
+}
+
+.sprite-john-snow {
+    width: 300px;
+    height: 300px;
+    background-position: -625px -625px;
+}
+
+.sprite-petyr-baelish {
+    width: 300px;
+    height: 300px;
+    background-position: -935px -5px;
+}
+
+.sprite-samwell {
+    width: 300px;
+    height: 300px;
+    background-position: -935px -315px;
+}
+
+.sprite-sansa-stark {
+    width: 300px;
+    height: 300px;
+    background-position: -935px -625px;
+}
+
+.sprite-theon-greyjoy {
+    width: 300px;
+    height: 300px;
+    background-position: -5px -935px;
+}
+
+.sprite-tyrion-lannister {
+    width: 300px;
+    height: 300px;
+    background-position: -315px -935px;
+}
+
+.sprite-yara-greyjoy {
+    width: 300px;
+    height: 300px;
+    background-position: -625px -935px;
 }
