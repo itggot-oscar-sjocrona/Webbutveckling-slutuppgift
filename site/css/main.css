@@ -27,14 +27,13 @@ p {
 
 body{
   margin: 0;
-  width: calc(100vw - 17px);
+  width: 100vw;
   background-image: url("../img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .home_body{
-  width: 100vw;
   background-image: url("../img/Game-of-Thrones-Iron-Throne.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,7 +77,7 @@ nav{
 
 .main{
   margin-top: 10vh;
-  width: calc(100vw - 17px);
+  width: 100vw;
 }
 
 .trailers_container{
@@ -88,7 +87,7 @@ nav{
 }
 
 .characters{
-  width: calc(100vw - 17px);
+  width: 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -268,8 +267,8 @@ and (device-height: 568px){
 
   nav{
     width: 100vw;
-    border-bottom: solid 1px lightgrey;
-    border-top: solid 1px lightgrey;
+    border-bottom: solid 1px #D3D3D3;
+    border-top: solid 1px #D3D3D3;
   }
 
   .nav{
@@ -325,6 +324,10 @@ and (device-height: 768px){
 
   .characters{
     width: 100vw;
+  }
+
+  .hide{
+    display: none;
   }
 
   .vid{
